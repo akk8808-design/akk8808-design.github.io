@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Price Report</title>
+</head>
+<body>
+
+    <h1>Crypto Price Project</h1>
+
+    <h2>1. Fetching Data</h2>
+    <p>Used the CoinGecko API:</p>
+
+    <p>
+        <a href="https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd">
+            https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd
+        </a>
+    </p>
+
+    <h2>2. JSON Response Example</h2>
+
+    <pre><code>{
+  "bitcoin": { "usd": 68206 },
+  "ethereum": { "usd": 2000.14 }
+}</code></pre>
+
+</body>
+</html>
