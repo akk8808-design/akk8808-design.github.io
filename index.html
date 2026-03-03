@@ -37,7 +37,7 @@
 
   <div class="meta">
     Last updated: <span id="updated">-</span> |
-    Refresh interval: <span id="interval">30</span>s
+    Refresh interval: <span id="interval">60</span>s
   </div>
   <div class="error" id="error"></div>
 
@@ -50,7 +50,7 @@
     const updatedEl = document.getElementById("updated");
     const errorEl = document.getElementById("error");
 
-    const REFRESH_SECONDS = 30; // 원하는 주기(초)로 바꾸면 됨
+    const REFRESH_SECONDS = 60; // 원하는 주기(초)로 바꾸면 됨
 
     function formatUSD(value) {
       // 68206 -> $68,206.00
